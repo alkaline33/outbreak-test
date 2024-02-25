@@ -169,7 +169,7 @@ public final class Commands {
 		if (clientCommand) {
 			switch (cmd[0]) {
 			
-			case "tele":
+			case "tele1":
 				cmd = cmd[1].split(",");
 				int plane = Integer.valueOf(cmd[0]);
 				int x = Integer.valueOf(cmd[1]) << 6 | Integer.valueOf(cmd[3]);
